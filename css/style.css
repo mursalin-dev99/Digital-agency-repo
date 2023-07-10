@@ -249,4 +249,72 @@ img {
 
 /*============================================
          css part ends here
+==============================================*/
+/*============================================
+        feature css part start here
+==============================================*/
+#feature_part {
+  width: 100%;
+  margin-top: 100px;
+  background: #000;
+}
+#feature_part .feature_body .feature_main {
+  padding: 200px 0;
+}
+#feature_part .feature_body .feature_main .row .col-lg-6 .feature_text h2 {
+  color: #fff;
+  font-size: 45px;
+  font-weight: 700;
+  text-transform: capitalize;
+  font-family: "Work Sans", sans-serif;
+}
+#feature_part .feature_body .feature_main .row .col-lg-6 .feature_text p {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Work Sans", sans-serif;
+  line-height: 1.5rem;
+}
+#feature_part .feature_body .feature_main .row .col-lg-6 .feature_text .feature_icon img {
+  padding-right: 15px;
+}
+#feature_part .feature_body .feature_main .row .col-lg-6 .feature_form h3 {
+  color: #fff;
+  font-size: 35px;
+  font-weight: 500;
+  text-transform: capitalize;
+  font-family: "Work Sans", sans-serif;
+}
+#feature_part .feature_body .feature_main .row .col-lg-6 .feature_form form label input {
+  border-color: #fff;
+  border-radius: 5px;
+  background: transparent;
+  width: 400px;
+  height: 40px;
+  color: #fff;
+  padding-left: 20px;
+}
+#feature_part .feature_body .feature_main .row .col-lg-6 .feature_form .feature_btn {
+  padding-top: 15px;
+}
+#feature_part .feature_body .feature_main .row .col-lg-6 .feature_form .feature_btn a {
+  text-decoration: none;
+  color: #F15B22;
+  background: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Work Sans", sans-serif;
+  padding: 10px 20px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+}
+#feature_part .feature_body .feature_main .row .col-lg-6 .feature_form .feature_btn a:hover {
+  color: #fff;
+  background: #F15B22;
+  border: 1px solid #fff;
+  transition: 0.5s;
+}
+
+/*============================================
+        feature css part ends here
 ==============================================*//*# sourceMappingURL=style.css.map */
