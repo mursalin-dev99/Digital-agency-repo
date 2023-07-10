@@ -195,4 +195,58 @@ img {
 
 /*============================================
         plan css part ends here
+==============================================*/
+/*============================================
+         css part start here
+==============================================*/
+#mind_part {
+  width: 100%;
+  margin-top: 100px;
+}
+#mind_part .mind_body .mind_main {
+  border-radius: 8px;
+  background-image: url(../images/watch.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#mind_part .mind_body .mind_main .mind_overlay {
+  border-radius: 8px;
+  background-image: url(../images/gradient2.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#mind_part .mind_body .mind_main .mind_overlay .mind_text {
+  padding: 100px 0;
+  padding-left: 60px;
+}
+#mind_part .mind_body .mind_main .mind_overlay .mind_text h3 {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 700;
+  font-family: "Work Sans", sans-serif;
+}
+#mind_part .mind_body .mind_main .mind_overlay .mind_text .mind_btn {
+  padding-top: 10px;
+}
+#mind_part .mind_body .mind_main .mind_overlay .mind_text .mind_btn a {
+  text-decoration: none;
+  color: #F15B22;
+  font-size: 20px;
+  font-family: "Work Sans", sans-serif;
+  padding: 15px 20px;
+  background: #fff;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+#mind_part .mind_body .mind_main .mind_overlay .mind_text .mind_btn a:hover {
+  color: #fff;
+  background: #F15B22;
+}
+
+/*============================================
+         css part ends here
 ==============================================*//*# sourceMappingURL=style.css.map */
