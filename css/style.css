@@ -43,4 +43,60 @@ img {
 
 /*============================================
         all typography css part ends here
+==============================================*/
+/*============================================
+         css part start here
+==============================================*/
+#banner_part {
+  width: 100%;
+  background: rebeccapurple;
+}
+#banner_part .banner_body {
+  background-image: url(../images/banner/banner1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#banner_part .banner_body .banner_main {
+  padding: 250px 0;
+  text-align: right;
+}
+#banner_part .banner_body .banner_main h1 {
+  color: #000;
+  font-size: 65px;
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+  text-transform: capitalize;
+}
+#banner_part .banner_body .banner_main p {
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.5rem;
+  padding-top: 10px;
+}
+#banner_part .banner_body .banner_main .ban_btn {
+  margin-top: 10px;
+}
+#banner_part .banner_body .banner_main .ban_btn a {
+  color: #fff;
+  background: #F15B22;
+  text-transform: capitalize;
+  border: 1px solid #F15B22;
+  border-radius: 5px;
+  text-decoration: none;
+  padding: 10px 15px;
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+}
+#banner_part .banner_body .banner_main .ban_btn a:hover {
+  transition: 0.5s;
+  color: #F15B22;
+  background: #fff;
+  border-color: #F15B22;
+}
+
+/*============================================
+         css part ends here
 ==============================================*//*# sourceMappingURL=style.css.map */
