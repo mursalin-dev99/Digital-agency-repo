@@ -1,0 +1,56 @@
+/*============================================
+        plan css part start here
+==============================================*/
+#plan_part{
+    width: 100%;
+    margin-top: 100px;
+    .plan_body{
+        .plan_main{
+            .plan_head{
+                text-align: center;
+                h3{
+                    color: #000;
+                    font-size: 40px;
+                    font-weight: 600;
+                    text-transform: capitalize;
+                    font-family: 'Work Sans', sans-serif;
+                }
+            }
+            .row{
+                margin-top: 50px;
+                .col-lg-3{
+                    text-align: center;
+                    .plan_img{
+                        img{
+                            width: 60px;
+                            height: 60px;
+                        }
+                    }
+                    .plan_text{
+                        padding-top: 10px;
+                        h4{
+                            color: #000;
+                            font-size: 25px;
+                            font-weight: 600;
+                            text-transform: capitalize;
+                            font-family: 'Work Sans', sans-serif;
+                            margin-bottom: 0;
+                        }
+                        p{
+                            color: #737272;
+                            font-size: 20px;
+                            font-weight: 500;
+                            font-family: 'Work Sans', sans-serif;
+                        }
+                    }
+                    &:hover{
+                        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+                    }
+                }
+            }
+        }
+    }
+}
+/*============================================
+        plan css part ends here
+==============================================*/
