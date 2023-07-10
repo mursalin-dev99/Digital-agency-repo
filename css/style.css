@@ -77,7 +77,7 @@ img {
   padding-top: 10px;
 }
 #banner_part .banner_body .banner_main .ban_btn {
-  margin-top: 10px;
+  margin-top: 25px;
 }
 #banner_part .banner_body .banner_main .ban_btn a {
   color: #fff;
@@ -99,4 +99,49 @@ img {
 
 /*============================================
          css part ends here
+==============================================*/
+/*============================================
+        failure css part start here
+==============================================*/
+#failure_part {
+  width: 100%;
+  margin-top: 150px;
+}
+#failure_part .failure_body .failure_main .row .col-lg-6 .failure_img img {
+  width: 80%;
+}
+#failure_part .failure_body .failure_main .row .col-lg-6 .failure_details {
+  margin-top: 180px;
+}
+#failure_part .failure_body .failure_main .row .col-lg-6 .failure_details h3 {
+  color: #000;
+  font-size: 40px;
+  font-weight: 700;
+  font-family: "Work Sans", sans-serif;
+}
+#failure_part .failure_body .failure_main .row .col-lg-6 .failure_details p {
+  padding-top: 15PX;
+  color: #444343;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Work Sans", sans-serif;
+  line-height: 1.5rem;
+}
+#failure_part .failure_body .failure_main .row .col-lg-6 .failure_details .fail_list ul {
+  padding-left: 0;
+}
+#failure_part .failure_body .failure_main .row .col-lg-6 .failure_details .fail_list ul li {
+  color: #444343;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Work Sans", sans-serif;
+  line-height: 1.5rem;
+}
+#failure_part .failure_body .failure_main .row .col-lg-6 .failure_details .fail_list ul li i {
+  padding-right: 10px;
+  color: #16D887;
+}
+
+/*============================================
+        failure css part ends here
 ==============================================*//*# sourceMappingURL=style.css.map */

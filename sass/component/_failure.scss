@@ -1,0 +1,56 @@
+/*============================================
+        failure css part start here
+==============================================*/
+#failure_part{
+    width: 100%;
+    margin-top: 150px;
+    .failure_body{
+        .failure_main{
+            .row{
+                .col-lg-6{
+                    .failure_img{
+                        img{
+                            width: 80%;
+                        }
+                    }
+                    .failure_details{
+                        margin-top: 180px;
+                        h3{
+                            color: #000;
+                            font-size: 40px;
+                            font-weight: 700;
+                            font-family: 'Work Sans', sans-serif;
+                        }
+                        p{
+                            padding-top: 15PX;
+                            color: #444343;
+                            font-size: 16px;
+                            font-weight: 400;
+                            font-family: 'Work Sans', sans-serif;
+                            line-height: 1.5rem;
+                        }
+                        .fail_list{
+                            ul{
+                                padding-left: 0;
+                                li{
+                                    color: #444343;
+                                    font-size: 16px;
+                                    font-weight: 400;
+                                    font-family: 'Work Sans', sans-serif;
+                                    line-height: 1.5rem;
+                                    i{
+                                        padding-right: 10px;
+                                        color: #16D887;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+/*============================================
+        failure css part ends here
+==============================================*/
